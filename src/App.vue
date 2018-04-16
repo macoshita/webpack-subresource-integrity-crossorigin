@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/logo.png" @click="test">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -12,6 +12,11 @@ export default {
   name: 'app',
   components: {
     HelloWorld
+  },
+  methods: {
+    async test () {
+      await import('./test')
+    }
   }
 }
 </script>
