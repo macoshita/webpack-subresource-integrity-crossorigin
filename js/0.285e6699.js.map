@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/test.js"],"names":["window","alert"],"mappings":"qCAAAA,OAAOC,MAAM","file":"js/0.285e6699.js","sourcesContent":["window.alert(123)\n\n\n\n// WEBPACK FOOTER //\n// ./src/test.js"],"sourceRoot":""}
